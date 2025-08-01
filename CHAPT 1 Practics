@@ -1,0 +1,8 @@
+--main= putStrLn "suis sadaka"
+multiplyByTwo :: Int -> Int
+multiplyByTwo  x=x*2
+
+main :: IO ()
+main = do  
+  putStrLn "moi c'est Michel donnez le double de ce chiffre"
+  print $ multiplyByTwo 10
